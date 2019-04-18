@@ -1,4 +1,12 @@
 .navbar-brand, .collapse-brand{
     font-family: 'Orbitron', sans-serif; 
-    
+}
+
+
+.nav-link{
+    text-transform: uppercase;
+}
+.dropdown-item{
+    text-transform: capitalize;
+    color: #a65abd
 }
