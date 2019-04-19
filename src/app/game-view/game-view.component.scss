@@ -1,8 +1,64 @@
-.section{
-    padding-top: 100px;
+.section {
+  padding-top: 100px;
 }
 
-.card{
-    display: flex;
-    height: 100%;
+.card {
+  display: flex;
+  height: 100%;
+}
+
+.browser-more {
+  position: relative;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  background-image: url(../../assets/images/wall.png);
+  padding: 70px 0;
+  border: 3px solid green;
+  text-align: center;
+
+  h1 {
+    color: white;
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+
+    text-shadow: rgb(0, 0, 0) 10px 5px 10px;
+    .fas {
+      color: red;
+      font-size: 150%;
+    }
+  }
+}
+
+.h1 {
+  color: white;
+}
+
+.addto-cart {
+  float: right;
+}
+
+.price {
+  color: white;
+}
+.share {  
+  margin-left: 20px;
+	text-align: center;
+	color: #f35626;
+	background-image: -webkit-linear-gradient(45deg, #f35626, #ff7300 , rgb(23, 211, 32), #2645f3, #fe3af4 , rgb(241, 238, 8));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 2s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
 }
