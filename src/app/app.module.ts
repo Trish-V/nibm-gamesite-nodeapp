@@ -8,6 +8,7 @@ import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { FooterComponent } from './shared/footer/footer.component'; 
 import { BannerCardComponent } from './home/banner-card/banner-card.component';
 import { NewsAreaComponent } from './home/news-area/news-area.component';
+import { GameViewComponent } from './game-view/game-view.component';
 import { ContentCardsComponent } from './home/content-cards/content-cards.component';
 
 @NgModule({
@@ -18,6 +19,7 @@ import { ContentCardsComponent } from './home/content-cards/content-cards.compon
     FooterComponent,
     BannerCardComponent,
     NewsAreaComponent,
+    GameViewComponent,
     ContentCardsComponent
   ],
   imports: [ 
