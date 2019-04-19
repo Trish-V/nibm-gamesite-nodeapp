@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { BannerCardComponent } from './home/banner-card/banner-card.component';
 import { NewsAreaComponent } from './home/news-area/news-area.component';
 import { GameViewComponent } from './game-view/game-view.component';
+import { ContentCardsComponent } from './home/content-cards/content-cards.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GameViewComponent } from './game-view/game-view.component';
     FooterComponent,
     BannerCardComponent,
     NewsAreaComponent,
-    GameViewComponent
+    GameViewComponent,
+    ContentCardsComponent
   ],
   imports: [ 
     BrowserModule,
