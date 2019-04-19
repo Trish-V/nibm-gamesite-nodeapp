@@ -8,6 +8,7 @@ import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
 import { FooterComponent } from './shared/footer/footer.component'; 
 import { BannerCardComponent } from './home/banner-card/banner-card.component';
 import { NewsAreaComponent } from './home/news-area/news-area.component';
+import { ContentCardsComponent } from './home/content-cards/content-cards.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NewsAreaComponent } from './home/news-area/news-area.component';
     NavBarComponent,
     FooterComponent,
     BannerCardComponent,
-    NewsAreaComponent
+    NewsAreaComponent,
+    ContentCardsComponent
   ],
   imports: [ 
     BrowserModule,
