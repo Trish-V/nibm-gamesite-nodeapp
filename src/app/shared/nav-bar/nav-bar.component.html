@@ -2,8 +2,7 @@
 <nav style="z-index:10" class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
   <div class="container">
     <div class="navbar-translate">
-      <a class="navbar-brand" href="https://demos.creative-tim.com/blk-design-system/index.html" rel="tooltip"
-        title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+      <a class="navbar-brand" routerLink="">
         <span><strong><b>Strike•</b></strong></span>Engine<b>+</b>
       </a>
       <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -88,9 +87,11 @@
               <input type="text" class="form-control" placeholder="Search">
             </div>
         </form>
-        <a class="btn btn-primary btn-fab btn-icon btn-round"  routerLink="cart" >
+        <button class="btn btn-primary btn-fab btn-icon btn-round"  routerLink="cart" >
             <i class="tim-icons icon-cart"></i>
-        </a>
+        </button>
+        <button class="btn btn-primary btn-sm" routerLink="register">Login</button>
+        
       </ul>
     </div>
   </div>
