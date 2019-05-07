@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "StrikeEnginePlus": {
+    "strikeengine": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/StrikeEnginePlus",
+            "outputPath": "dist/strikeengine",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "StrikeEnginePlus:build"
+            "browserTarget": "strikeengine:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "StrikeEnginePlus:build:production"
+              "browserTarget": "strikeengine:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "StrikeEnginePlus:build"
+            "browserTarget": "strikeengine:build"
           }
         },
         "test": {
@@ -107,7 +107,7 @@
         }
       }
     },
-    "StrikeEnginePlus-e2e": {
+    "strikeengine-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -116,11 +116,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "StrikeEnginePlus:serve"
+            "devServerTarget": "strikeengine:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "StrikeEnginePlus:serve:production"
+              "devServerTarget": "strikeengine:serve:production"
             }
           }
         },
@@ -136,5 +136,5 @@
       }
     }
   },
-  "defaultProject": "StrikeEnginePlus"
+  "defaultProject": "strikeengine"
 }

@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to StrikeEnginePlus!');
+    expect(page.getTitleText()).toEqual('Welcome to strikeengine!');
   });
 
   afterEach(async () => {
