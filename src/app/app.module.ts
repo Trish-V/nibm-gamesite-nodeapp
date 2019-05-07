@@ -10,6 +10,8 @@ import { BannerCardComponent } from './home/banner-card/banner-card.component';
 import { NewsAreaComponent } from './home/news-area/news-area.component';
 import { GameViewComponent } from './game-view/game-view.component';
 import { ContentCardsComponent } from './home/content-cards/content-cards.component';
+import { GameCartComponent } from './game-cart/game-cart.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { ContentCardsComponent } from './home/content-cards/content-cards.compon
     BannerCardComponent,
     NewsAreaComponent,
     GameViewComponent,
-    ContentCardsComponent
+    ContentCardsComponent,
+    GameCartComponent,
+    RegisterComponent
   ],
-  imports: [ 
+  imports: [
     BrowserModule,
-    AppRoutingModule, 
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
