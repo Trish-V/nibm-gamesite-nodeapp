@@ -1,4 +1,77 @@
 
+.heart {
+  border-radius: 25px;
+  
+
+
+}
+
+.banner1{
+
+  background-image: url("../../../assets/images/cod.png");
+
+}
+
+.banner2{
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpPCRaAozfI_d4YLa9GSXoU2IIsTgKpkuG0tPiQLECNb645bT3_A");
+
+}
+
+.banner3{
+
+  background-image: url("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjx3ffU_47iAhXUYisKHRnoAXUQjRx6BAgBEAU&url=https%3A%2F%2Fneed-for-speed-most-wanted-demo.en.softonic.com%2F&psig=AOvVaw3Tu_3z9eyIzXExbKrVT-IB&ust=1557510154799736");
+
+}
+
+
+.banner4{
+
+  background-image: url("https://www.callofduty.com//content/dam/atvi/callofduty/wwii/home/Stronghold_Metadata_Image.jpg");
+
+}
+
+.banner5{
+
+  background-image: url("https://adeptgaming.net/wp-content/uploads/2017/01/Cod4-Campaign.jpg");
+
+}
+
+.banner6{
+
+  background-image: url("https://wallpapercave.com/wp/wp3276758.jpg");
+
+}
+
+
+.banner7{
+
+  background-image: url("https://i.ytimg.com/vi/DbENm2iy0oA/maxresdefault.jpg");
+
+}
+
+
+
+.banner8{
+
+  background-image: url("https://cdn.shopify.com/s/files/1/0942/1228/products/MUvL3CL_2048x2048.jpeg?v=1438807417");
+
+}
+
+
+.banner9{
+
+  background-image: url("https://static.trueachievements.com/customimages/031315.jpg");
+
+}
+
+
+.banner10{
+
+  background-image: url("../../../assets/images/13b677b1fa9c49ef47762646c76653d56b5c144f.jpg");
+
+}
+
   .small-card {
     width: 100%;
     height: 280px !important;
@@ -6,24 +79,24 @@
       width: 100%;
       height: 280px !important;
       position: absolute;
-  
+
       .cover {
           position: absolute;
           top: 0;
           left: 0;
-          background-size: cover;
-          background-image: url("../../../assets/images/13b677b1fa9c49ef47762646c76653d56b5c144f.jpg");
+          background-size: contain;
+         // background-image: url("../../../assets/images/13b677b1fa9c49ef47762646c76653d56b5c144f.jpg");
           width: 100%;
           height: 100%;
         }
-  
+
       .label {
         width: 100%;
         height: 20%;
         background: radial-gradient(farthest-corner at 70% 50%, rgba(31, 30, 30, 0.5), rgba(0, 0, 0, 0.5), rgba(39, 39, 39, 0.5));
         position: absolute;
         top: 55%;
-  
+
         h3 {
           font-family: "Orbitron", sans-serif;
           margin: 15px;
@@ -31,11 +104,11 @@
       }
     }
   }
-  
+
   .shadow {
     position: relative;
     margin: 15px;
-  
+
     background: linear-gradient(0deg, #000000, #272727);
     .inner {
       left: 0;
@@ -43,7 +116,7 @@
       top: 0;
       bottom: 0;
       position: absolute;
-  
+
       background: linear-gradient(0deg, #000000, #272727);
       z-index: 2;
     }
@@ -88,7 +161,7 @@
     }
   }
   // ***********************************
-  
+
   .GE_HorizontalWave,
   .GE_VerticalWaveUp,
   .GE_StaticColorShift,
@@ -99,7 +172,7 @@
   .GE_WarpDrive {
     opacity: 0 !important;
   }
-  
+
   .GE_HorizontalWave.active,
   .GE_VerticalWaveUp.active,
   .GE_StaticColorShift.active,
@@ -110,20 +183,20 @@
   .GE_WarpDrive.active {
     opacity: 1 !important;
   }
-  
+
   #GEKeyboard {
     background: #111;
     padding: 0 0 3% 0;
     position: relative;
     height: 700px;
   }
-  
+
   @media only screen and (max-width: 1280px) {
     /*#GEKeyboard {
           display: none;
       } */
   }
-  
+
   #GEKeyboard img {
     position: absolute;
     z-index: 10;
@@ -133,7 +206,7 @@
     left: 0;
     margin: auto;
   }
-  
+
   .GE_VerticalWaveUp {
     display: block;
     /* Point */
@@ -157,9 +230,9 @@
     animation: VerticalWaveUp 2s linear infinite;
     overflow: hidden;
   }
-  
+
   /*七彩動態*/
-  
+
   @keyframes VerticalWaveUp {
     from {
       background-position: 0 0;
@@ -168,7 +241,7 @@
       background-position: 0 611px;
     }
   }
-  
+
   @-webkit-keyframes VerticalWaveUp {
     0% {
       background-position: 0 0;
@@ -177,9 +250,9 @@
       background-position: 0 611px;
     }
   }
-  
+
   /*七彩動態*/
-  
+
   @-webkit-keyframes StaticColorShift {
     0% {
       background-color: #ff0000;
@@ -203,7 +276,7 @@
       background-color: #d300c9;
     }
   }
-  
+
   @-moz-keyframes StaticColorShift {
     0% {
       background-color: #ff0000;
@@ -227,7 +300,7 @@
       background-color: #d300c9;
     }
   }
-  
+
   @-ms-keyframes StaticColorShift {
     0% {
       background-color: #ff0000;
@@ -251,7 +324,7 @@
       background-color: #d300c9;
     }
   }
-  
+
   @-o-keyframes StaticColorShift {
     0% {
       background-color: #ff0000;
@@ -275,7 +348,7 @@
       background-color: #d300c9;
     }
   }
-  
+
   @keyframes StaticColorShift {
     0% {
       background-color: #ff0000;
@@ -299,7 +372,7 @@
       background-color: #d300c9;
     }
   }
-  
+
   .GE_StaticColorShift {
     display: block;
     animation-name: StaticColorShift;
@@ -320,7 +393,7 @@
     width: 1050px;
     height: 500px;
   }
-  
+
   .GE_HorizontalWave {
     display: block;
     /*     width: 1050px;
@@ -339,7 +412,7 @@
     left: 0;
     margin: auto;
   }
-  
+
   @keyframes HorizontalWave {
     0% {
       background-position: 0 0;
@@ -348,7 +421,7 @@
       background-position: 50rem 0;
     }
   }
-  
+
   .GE_WarpDrive {
     position: absolute;
     z-index: 1;
@@ -363,11 +436,11 @@
     background: url("https://storage-asset.msi.com/event/nb/2018/GE63/images/kb.gif") no-repeat bottom center;
     background-size: 150%;
   }
-  
+
   /*GE********************/
-  
+
   /*GE_keyboard*/
-  
+
   .GE_keyboard {
     position: absolute;
     z-index: 1;
@@ -380,7 +453,7 @@
     width: 1020px;
     height: 500px;
   }
-  
+
   .GE_keyboard li {
     display: block;
     width: 45px;
@@ -389,338 +462,338 @@
     margin: 1px 2px;
     text-indent: -9999px;
   }
-  
+
   .GE_keyboard li:nth-child(1) {
     margin-left: 5px;
     height: 42px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(2) {
     margin-left: 5px;
     height: 42px;
     background: #9000ff;
   }
-  
+
   .GE_keyboard li:nth-child(3) {
     height: 42px;
     background: #f00000;
   }
-  
+
   .GE_keyboard li:nth-child(4) {
     height: 42px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(5) {
     height: 42px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(6) {
     height: 42px;
     background: #ff0050;
   }
-  
+
   .GE_keyboard li:nth-child(7) {
     height: 42px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(8) {
     height: 42px;
     background: #ccff33;
   }
-  
+
   .GE_keyboard li:nth-child(9) {
     height: 42px;
     background: #ff0050;
   }
-  
+
   .GE_keyboard li:nth-child(10) {
     height: 42px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(11) {
     height: 42px;
     background: #ffd000;
   }
-  
+
   .GE_keyboard li:nth-child(12) {
     height: 42px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(13) {
     height: 42px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(14) {
     height: 42px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(15) {
     height: 42px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(16) {
     height: 42px;
     background: #ccddff;
   }
-  
+
   .GE_keyboard li:nth-child(17) {
     height: 42px;
     margin-left: 12px;
     width: 40px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(18) {
     height: 42px;
     width: 42px;
     background: #ccddff;
   }
-  
+
   .GE_keyboard li:nth-child(19) {
     height: 42px;
     width: 42px;
     background: #4400cc;
   }
-  
+
   .GE_keyboard li:nth-child(20) {
     height: 42px;
     width: 42px;
     background: #eeee00;
   }
-  
+
   .GE_keyboard li:nth-child(21) {
     margin-left: 5px;
     width: 73px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(22) {
     width: 50px;
     margin-left: 1px;
     background: #9000ff;
   }
-  
+
   .GE_keyboard li:nth-child(23) {
     width: 46px;
     margin-left: 1px;
     background: #ffd000;
   }
-  
+
   .GE_keyboard li:nth-child(24) {
     width: 46px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(25) {
     margin-left: 3px;
     width: 46px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(26) {
     margin-left: 3px;
     width: 48px;
     background: #ff0000;
   }
-  
+
   .GE_keyboard li:nth-child(27) {
     margin-left: 1px;
     width: 48px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(28) {
     margin-left: 1px;
     width: 48px;
     background: #00ffb0;
   }
-  
+
   .GE_keyboard li:nth-child(29) {
     margin-left: 1px;
     width: 48px;
     background: #ff0050;
   }
-  
+
   .GE_keyboard li:nth-child(30) {
     margin-left: 3px;
     width: 48px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(31) {
     margin-left: 1px;
     width: 48px;
     background: #ffd000;
   }
-  
+
   .GE_keyboard li:nth-child(32) {
     width: 48px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(33) {
     width: 48px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(34) {
     width: 95px;
     background: #ffb3ff;
   }
-  
+
   .GE_keyboard li:nth-child(35) {
     margin-left: 8px;
     width: 40px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(36) {
     width: 40px;
     height: 50px;
     background: #ff88c2;
   }
-  
+
   .GE_keyboard li:nth-child(37) {
     width: 40px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(38) {
     width: 40px;
     height: 50px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(39) {
     margin: 0 0 5px 5px;
     width: 83px;
     height: 50px;
     background: #4400b3;
   }
-  
+
   .GE_keyboard li:nth-child(40) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #b94fff;
   }
-  
+
   .GE_keyboard li:nth-child(41) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(42) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #9000ff;
   }
-  
+
   .GE_keyboard li:nth-child(43) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #ff5511;
   }
-  
+
   .GE_keyboard li:nth-child(44) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(45) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(46) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #ff0000;
   }
-  
+
   .GE_keyboard li:nth-child(47) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(48) {
     margin: 0 0 5px 3px;
     width: 50px;
     height: 50px;
     background: #00ffb0;
   }
-  
+
   .GE_keyboard li:nth-child(49) {
     margin: 0 0 5px 3px;
     width: 50px;
     height: 50px;
     background: #ff0050;
   }
-  
+
   .GE_keyboard li:nth-child(50) {
     margin: 0 0 5px 3px;
     width: 50px;
     height: 50px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(51) {
     margin: 0 0 5px 3px;
     width: 48px;
     height: 50px;
     background: #ffd000;
   }
-  
+
   .GE_keyboard li:nth-child(52) {
     margin: 0 0 5px 3px;
     width: 82px;
     height: 52px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(53) {
     margin: 0 0 5px 12px;
     height: 52px;
     width: 42px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(54) {
     margin: 0 0 5px 2px;
     height: 52px;
     width: 42px;
     background: #ff00ff;
   }
-  
+
   .GE_keyboard li:nth-child(55) {
     margin: 0 0 5px 2px;
     height: 52px;
     width: 42px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(56) {
     position: absolute;
     right: 41px;
@@ -729,242 +802,242 @@
     width: 44px;
     background: #ffd000;
   }
-  
+
   .GE_keyboard li:nth-child(57) {
     margin: 0 0 0 2px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(58) {
     margin: -5px 0 0 2px;
     width: 99px;
     height: 50px;
     background: #ff3333;
   }
-  
+
   .GE_keyboard li:nth-child(59) {
     margin: -5px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #ffb7dd;
   }
-  
+
   .GE_keyboard li:nth-child(60) {
     margin: -5px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #aaaaaa;
   }
-  
+
   .GE_keyboard li:nth-child(61) {
     margin: -5px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #ffd000;
   }
-  
+
   .GE_keyboard li:nth-child(62) {
     margin: -5px 0 0 2px;
     width: 49px;
     height: 50px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(63) {
     margin: -5px 0 0 2px;
     width: 49px;
     height: 50px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(64) {
     margin: -5px 0 0 2px;
     width: 49px;
     height: 50px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(65) {
     margin: -5px 0 0 2px;
     width: 49px;
     height: 50px;
     background: #ff5511;
   }
-  
+
   .GE_keyboard li:nth-child(66) {
     margin: -5px 0 0 2px;
     width: 49px;
     height: 50px;
     background: #aaaaaa;
   }
-  
+
   .GE_keyboard li:nth-child(67) {
     margin: -5px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(68) {
     margin: -5px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #aaaaaa;
   }
-  
+
   .GE_keyboard li:nth-child(69) {
     margin: -5px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #ffd000;
   }
-  
+
   .GE_keyboard li:nth-child(70) {
     margin: -3px 0 0 2px;
     width: 120px;
     height: 50px;
     background: #bbff66;
   }
-  
+
   .GE_keyboard li:nth-child(71) {
     margin: -3px 0 0 12px;
     width: 44px;
     height: 50px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(72) {
     margin: -3px 0 0 2px;
     width: 42px;
     height: 50px;
     background: #9000ff;
   }
-  
+
   .GE_keyboard li:nth-child(73) {
     margin: -3px 0 0 2px;
     width: 42px;
     height: 50px;
     background: #ffd000;
   }
-  
+
   .GE_keyboard li:nth-child(74) {
     margin-left: 8px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(75) {
     margin: 0 0 0 2px;
     height: 50px;
     width: 126px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(76) {
     margin: 0 0 0 2px;
     width: 50px;
     height: 50px;
     background: #ff0000;
   }
-  
+
   .GE_keyboard li:nth-child(77) {
     margin: 0 0 0 2px;
     width: 50px;
     height: 50px;
     background: #0000ff;
   }
-  
+
   .GE_keyboard li:nth-child(78) {
     margin: 0 0 0 2px;
     width: 50px;
     height: 50px;
     background: #00ffb0;
   }
-  
+
   .GE_keyboard li:nth-child(79) {
     margin: 0 0 0 2px;
     width: 48px;
     height: 50px;
     background: #ff0050;
   }
-  
+
   .GE_keyboard li:nth-child(80) {
     margin: 0 0 0 2px;
     width: 48px;
     height: 50px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(81) {
     margin: 2px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #00ffff;
   }
-  
+
   .GE_keyboard li:nth-child(82) {
     margin: 2px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #9000ff;
   }
-  
+
   .GE_keyboard li:nth-child(83) {
     margin: 2px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #ff0000;
   }
-  
+
   .GE_keyboard li:nth-child(84) {
     margin: 2px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #ffff00;
   }
-  
+
   .GE_keyboard li:nth-child(85) {
     margin: 2px 0 0 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(86) {
     margin: 2px 0 0 2px;
     width: 92px;
     height: 50px;
     background: #ff77ff;
   }
-  
+
   .GE_keyboard li:nth-child(87) {
     margin: 2px 0 0 4px;
     width: 50px;
     height: 50px;
     background: #cceeff;
   }
-  
+
   .GE_keyboard li:nth-child(88) {
     margin: 2px 0 0 12px;
     width: 43px;
     height: 50px;
     background: #ccbbff;
   }
-  
+
   .GE_keyboard li:nth-child(89) {
     margin: 2px 0 0 2px;
     width: 43px;
     height: 50px;
     background: #00ff00;
   }
-  
+
   .GE_keyboard li:nth-child(90) {
     margin: 2px 0 0 2px;
     width: 43px;
     height: 50px;
     background: #5500ff;
   }
-  
+
   .GE_keyboard li:nth-child(91) {
     position: absolute;
     right: 41px;
@@ -973,113 +1046,113 @@
     width: 42px;
     background: #ff3333;
   }
-  
+
   .GE_keyboard li:nth-child(92) {
     margin: 5px 0 5px 25px;
     width: 42px;
     background: #ff7744;
   }
-  
+
   .GE_keyboard li:nth-child(93) {
     margin: 0 0 5px 2px;
     width: 93px;
     height: 50px;
     background: #66ff66;
   }
-  
+
   .GE_keyboard li:nth-child(94) {
     margin: 0 0 5px 2px;
     width: 50px;
     height: 50px;
     background: #ff3333;
   }
-  
+
   .GE_keyboard li:nth-child(95) {
     margin: 0 0 5px 2px;
     width: 60px;
     height: 50px;
     background: #990099;
   }
-  
+
   .GE_keyboard li:nth-child(96) {
     margin: 2px 0 5px 2px;
     width: 268px;
     height: 50px;
     background: #bbff66;
   }
-  
+
   .GE_keyboard li:nth-child(97) {
     margin: 2px 0 5px 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(98) {
     margin: 2px 0 5px 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(99) {
     margin: 2px 0 5px 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(100) {
     margin: 2px 0 5px 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(100) {
     margin: 2px 0 5px 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(101) {
     margin: 2px 0 5px 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(102) {
     margin: 2px 0 5px 2px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(103) {
     margin: 2px 0 5px 5px;
     width: 50px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(104) {
     margin: 3px 0 5px 2px;
     width: 43px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   .GE_keyboard li:nth-child(105) {
     margin: 3px 0 5px 3px;
     width: 43px;
     height: 50px;
     background: #60ff00;
   }
-  
+
   /*GE_FPS*/
-  
+
   .GE_FPS {
     position: absolute;
     z-index: 1;
@@ -1092,11 +1165,11 @@
     width: 1020px;
     height: 500px;
   }
-  
+
   .GE_FPS ul {
     position: relative;
   }
-  
+
   .GE_FPS li {
     display: block;
     width: 45px;
@@ -1105,20 +1178,20 @@
     margin: 1px 2px;
     text-indent: -9999px;
   }
-  
+
   .GE_FPS li:nth-child(1) {
     position: absolute;
     width: 100px;
     left: 50px;
     background: #fff;
   }
-  
+
   .GE_FPS li:nth-child(2) {
     position: absolute;
     right: 378px;
     background: #fff;
   }
-  
+
   .GE_FPS li:nth-child(3) {
     position: absolute;
     top: 43px;
@@ -1126,7 +1199,7 @@
     width: 335px;
     background: #ff0;
   }
-  
+
   .GE_FPS li:nth-child(4) {
     position: absolute;
     top: 97px;
@@ -1134,7 +1207,7 @@
     height: 50px;
     background: #fff;
   }
-  
+
   .GE_FPS li:nth-child(5) {
     position: absolute;
     top: 97px;
@@ -1143,7 +1216,7 @@
     height: 50px;
     background: #ff0;
   }
-  
+
   .GE_FPS li:nth-child(6) {
     position: absolute;
     top: 97px;
@@ -1152,7 +1225,7 @@
     height: 50px;
     background: #f00;
   }
-  
+
   .GE_FPS li:nth-child(7) {
     position: absolute;
     top: 97px;
@@ -1161,7 +1234,7 @@
     height: 50px;
     background: #fff;
   }
-  
+
   .GE_FPS li:nth-child(8) {
     position: absolute;
     top: 97px;
@@ -1170,7 +1243,7 @@
     height: 50px;
     background: #0202fb;
   }
-  
+
   .GE_FPS li:nth-child(9) {
     position: absolute;
     top: 97px;
@@ -1179,7 +1252,7 @@
     height: 50px;
     background: #0ebc0d;
   }
-  
+
   .GE_FPS li:nth-child(10) {
     position: absolute;
     top: 150px;
@@ -1188,7 +1261,7 @@
     height: 50px;
     background: #f00;
   }
-  
+
   .GE_FPS li:nth-child(11) {
     position: absolute;
     top: 150px;
@@ -1197,7 +1270,7 @@
     height: 50px;
     background: #0202fb;
   }
-  
+
   .GE_FPS li:nth-child(12) {
     position: absolute;
     top: 150px;
@@ -1206,7 +1279,7 @@
     height: 50px;
     background: #0ebc0d;
   }
-  
+
   .GE_FPS li:nth-child(13) {
     position: absolute;
     top: 201px;
@@ -1214,7 +1287,7 @@
     height: 50px;
     background: #f00;
   }
-  
+
   .GE_FPS li:nth-child(14) {
     position: absolute;
     top: 201px;
@@ -1223,7 +1296,7 @@
     height: 50px;
     background: #0ebc0d;
   }
-  
+
   .GE_FPS li:nth-child(15) {
     position: absolute;
     top: 201px;
@@ -1232,7 +1305,7 @@
     height: 50px;
     background: #fff;
   }
-  
+
   .GE_FPS li:nth-child(16) {
     position: absolute;
     top: 201px;
@@ -1241,7 +1314,7 @@
     height: 50px;
     background: #fff;
   }
-  
+
   .GE_FPS li:nth-child(17) {
     position: absolute;
     top: 253px;
@@ -1249,9 +1322,9 @@
     height: 50px;
     background: #f00;
   }
-  
+
   /*GE_MMO*/
-  
+
   .GE_MMO {
     position: absolute;
     z-index: 1;
@@ -1264,11 +1337,11 @@
     width: 1020px;
     height: 500px;
   }
-  
+
   .GE_MMO ul {
     position: relative;
   }
-  
+
   .GE_MMO li {
     display: block;
     width: 48px;
@@ -1277,26 +1350,26 @@
     margin: 1px 2px;
     text-indent: -9999px;
   }
-  
+
   .GE_MMO li:nth-child(1) {
     position: absolute;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(2) {
     position: absolute;
     width: 295px;
     left: 50px;
     background: #f00;
   }
-  
+
   .GE_MMO li:nth-child(3) {
     position: absolute;
     width: 295px;
     left: 345px;
     background: #00ff04;
   }
-  
+
   .GE_MMO li:nth-child(4) {
     position: absolute;
     top: 44px;
@@ -1305,7 +1378,7 @@
     right: 175px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(5) {
     position: absolute;
     top: 44px;
@@ -1314,7 +1387,7 @@
     height: 50px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(6) {
     position: absolute;
     top: 44px;
@@ -1322,7 +1395,7 @@
     height: 48px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(7) {
     position: absolute;
     width: 360px;
@@ -1331,7 +1404,7 @@
     height: 48px;
     background: #f00;
   }
-  
+
   .GE_MMO li:nth-child(8) {
     position: absolute;
     width: 100px;
@@ -1340,7 +1413,7 @@
     height: 48px;
     background: #00ff04;
   }
-  
+
   .GE_MMO li:nth-child(9) {
     position: absolute;
     top: 98px;
@@ -1349,7 +1422,7 @@
     height: 103px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(10) {
     position: absolute;
     top: 98px;
@@ -1357,7 +1430,7 @@
     width: 85px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(11) {
     position: absolute;
     top: 98px;
@@ -1366,7 +1439,7 @@
     height: 48px;
     background: #ff0;
   }
-  
+
   .GE_MMO li:nth-child(12) {
     position: absolute;
     top: 98px;
@@ -1375,7 +1448,7 @@
     height: 48px;
     background: #fff;
   }
-  
+
   .GE_MMO li:nth-child(13) {
     position: absolute;
     top: 98px;
@@ -1384,7 +1457,7 @@
     height: 48px;
     background: #ff0;
   }
-  
+
   .GE_MMO li:nth-child(14) {
     position: absolute;
     top: 148px;
@@ -1392,15 +1465,15 @@
     height: 50px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(15) {
     display: none;
   }
-  
+
   .GE_MMO li:nth-child(16) {
     display: none;
   }
-  
+
   .GE_MMO li:nth-child(17) {
     position: absolute;
     top: 148px;
@@ -1409,7 +1482,7 @@
     height: 50px;
     background: #fff;
   }
-  
+
   .GE_MMO li:nth-child(18) {
     position: absolute;
     top: 148px;
@@ -1418,7 +1491,7 @@
     height: 50px;
     background: #ff0;
   }
-  
+
   .GE_MMO li:nth-child(19) {
     position: absolute;
     right: 229px;
@@ -1427,7 +1500,7 @@
     height: 50px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(20) {
     position: absolute;
     top: 202px;
@@ -1435,7 +1508,7 @@
     height: 50px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(21) {
     position: absolute;
     top: 202px;
@@ -1443,7 +1516,7 @@
     height: 50px;
     background: #ff5200;
   }
-  
+
   .GE_MMO li:nth-child(22) {
     position: absolute;
     top: 253px;
@@ -1451,7 +1524,7 @@
     height: 50px;
     background: #00ff04;
   }
-  
+
   .GE_MMO li:nth-child(23) {
     position: absolute;
     top: 251px;
@@ -1460,7 +1533,7 @@
     height: 50px;
     background: #00ff04;
   }
-  
+
   .GE_MMO li:nth-child(24) {
     position: absolute;
     top: 251px;
@@ -1469,9 +1542,9 @@
     height: 50px;
     background: #ff5200;
   }
-  
+
   /*GE_MOBA*/
-  
+
   .GE_MOBA {
     position: absolute;
     z-index: 1;
@@ -1484,11 +1557,11 @@
     width: 1020px;
     height: 500px;
   }
-  
+
   .GE_MOBA ul {
     position: relative;
   }
-  
+
   .GE_MOBA li {
     display: block;
     width: 48px;
@@ -1497,21 +1570,21 @@
     margin: 1px 2px;
     text-indent: -9999px;
   }
-  
+
   .GE_MOBA li:nth-child(1) {
     position: absolute;
     background: #00ff04;
     left: 55px;
     width: 190px;
   }
-  
+
   .GE_MOBA li:nth-child(2) {
     position: absolute;
     background: #fff;
     left: 250px;
     width: 440px;
   }
-  
+
   .GE_MOBA li:nth-child(3) {
     position: absolute;
     background: #00ff04;
@@ -1519,7 +1592,7 @@
     width: 75px;
     height: 50px;
   }
-  
+
   .GE_MOBA li:nth-child(4) {
     position: absolute;
     background: #f00;
@@ -1528,7 +1601,7 @@
     height: 50px;
     width: 205px;
   }
-  
+
   .GE_MOBA li:nth-child(5) {
     position: absolute;
     background: #fff;
@@ -1537,7 +1610,7 @@
     height: 50px;
     right: 132px;
   }
-  
+
   .GE_MOBA li:nth-child(6) {
     position: absolute;
     background: #f00;
@@ -1546,7 +1619,7 @@
     width: 102px;
     height: 50px;
   }
-  
+
   .GE_MOBA li:nth-child(7) {
     position: absolute;
     background: #fff;
@@ -1555,7 +1628,7 @@
     height: 50px;
     right: 175px;
   }
-  
+
   .GE_MOBA li:nth-child(8) {
     position: absolute;
     background: #0033ff;
@@ -1564,7 +1637,7 @@
     width: 43px;
     height: 50px;
   }
-  
+
   .GE_MOBA li:nth-child(9) {
     position: absolute;
     background: #fff;
@@ -1573,7 +1646,7 @@
     width: 43px;
     height: 50px;
   }
-  
+
   .GE_MOBA li:nth-child(10) {
     position: absolute;
     background: #ff5200;
@@ -1582,7 +1655,7 @@
     width: 307px;
     height: 50px;
   }
-  
+
   .GE_MOBA li:nth-child(11) {
     position: absolute;
     background: #fff;
@@ -1591,7 +1664,7 @@
     width: 43px;
     height: 50px;
   }
-  
+
   @-webkit-keyframes VWaveUp {
     0% {
       background-position: 0 0;
@@ -1600,7 +1673,7 @@
       background-position: 0 1000px;
     }
   }
-  
+
   @-moz-keyframes VWaveUp {
     0% {
       background-position: 0 0;
@@ -1609,7 +1682,7 @@
       background-position: 0 1000px;
     }
   }
-  
+
   @-ms-keyframes VWaveUp {
     0% {
       background-position: 0 0;
@@ -1618,7 +1691,7 @@
       background-position: 0 1000px;
     }
   }
-  
+
   @-o-keyframes VWaveUp {
     0% {
       background-position: 0 0;
@@ -1627,7 +1700,7 @@
       background-position: 0 1000px;
     }
   }
-  
+
   @keyframes VWaveUp {
     0% {
       background-position: 0 0;
@@ -1636,7 +1709,7 @@
       background-position: 0 1000px;
     }
   }
-  
+
   @-webkit-keyframes GameSenseColorShift {
     0% {
       background-color: #ffff00;
@@ -1669,7 +1742,7 @@
       background-color: #ff0000;
     }
   }
-  
+
   @-moz-keyframes GameSenseColorShift {
     0% {
       background-color: #ffff00;
@@ -1702,7 +1775,7 @@
       background-color: #ff0000;
     }
   }
-  
+
   @-ms-keyframes GameSenseColorShift {
     0% {
       background-color: #ffff00;
@@ -1735,7 +1808,7 @@
       background-color: #ff0000;
     }
   }
-  
+
   @-o-keyframes GameSenseColorShift {
     0% {
       background-color: #ffff00;
@@ -1768,7 +1841,7 @@
       background-color: #ff0000;
     }
   }
-  
+
   @keyframes GameSenseColorShift {
     0% {
       background-color: #ffff00;
@@ -1801,7 +1874,7 @@
       background-color: #ff0000;
     }
   }
-  
+
   @-webkit-keyframes LeftWave {
     0% {
       width: 0%;
@@ -1833,7 +1906,7 @@
       opacity: 0;
     }
   }
-  
+
   @-moz-keyframes LeftWave {
     0% {
       width: 0%;
@@ -1865,7 +1938,7 @@
       opacity: 0;
     }
   }
-  
+
   @-ms-keyframes LeftWave {
     0% {
       width: 0%;
@@ -1897,7 +1970,7 @@
       opacity: 0;
     }
   }
-  
+
   @-o-keyframes LeftWave {
     0% {
       width: 0%;
@@ -1929,7 +2002,7 @@
       opacity: 0;
     }
   }
-  
+
   @keyframes LeftWave {
     0% {
       width: 0%;
@@ -1961,7 +2034,7 @@
       opacity: 0;
     }
   }
-  
+
   @-webkit-keyframes RightWave {
     0% {
       width: 0%;
@@ -2003,7 +2076,7 @@
       bottom: 100%;
     }
   }
-  
+
   @-moz-keyframes RightWave {
     0% {
       width: 0%;
@@ -2045,7 +2118,7 @@
       bottom: 100%;
     }
   }
-  
+
   @-ms-keyframes RightWave {
     0% {
       width: 0%;
@@ -2087,7 +2160,7 @@
       bottom: 100%;
     }
   }
-  
+
   @-o-keyframes RightWave {
     0% {
       width: 0%;
@@ -2129,7 +2202,7 @@
       bottom: 100%;
     }
   }
-  
+
   @keyframes RightWave {
     0% {
       width: 0%;
@@ -2161,18 +2234,19 @@
       right: 0%;
       bottom: 100%;
     }
-    height: 0%;
-    right: 0;
-    bottom: 0%;
-  }
-  
+  //   height: 0%;
+  //   right: 0;
+  //   bottom: 0%;
+  // }
+
   100% {
     background-position: 0 1500px;
     opacity: 0;
     width: 47%;
     height: 0%;
   }
-  
+}
+
   @-webkit-keyframes LeftWave3 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -2274,7 +2348,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @-moz-keyframes LeftWave3 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -2376,7 +2450,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @-ms-keyframes LeftWave3 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -2478,7 +2552,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @-o-keyframes LeftWave3 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -2580,7 +2654,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @keyframes LeftWave3 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -2682,7 +2756,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @-webkit-keyframes LeftWave2 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -2784,7 +2858,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @-moz-keyframes LeftWave2 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -2886,7 +2960,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @-ms-keyframes LeftWave2 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -2988,7 +3062,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @-o-keyframes LeftWave2 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -3090,7 +3164,7 @@
       background-position: 0 0;
     }
   }
-  
+
   @keyframes LeftWave2 {
     0% {
       -webkit-transform: rotate(-35deg);
@@ -3192,14 +3266,14 @@
       background-position: 0 0;
     }
   }
-  
+
   /* btu_bar - mystic light + steelseries button bar*/
-  
+
   .btu_bar {
     margin: 0px auto 150px;
     width: 80%;
   }
-  
+
   .btu_bar .btu_icon {
     display: block;
     float: left;
@@ -3209,11 +3283,11 @@
     opacity: 0.3;
     text-decoration: none;
   }
-  
+
   .btu_bar .btu_icon.active {
     opacity: 1;
   }
-  
+
   .btu_bar .btu_icon .icon {
     display: block;
     background-size: cover;
@@ -3223,81 +3297,81 @@
     margin: 0px auto 5px;
     border-radius: 8px;
   }
-  
+
   .btu_bar .btu_icon span {
     color: #fff;
   }
-  
+
   .icon_1 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-15.svg");
   }
-  
+
   .icon_2 .icon {
     background-image: url("https://storage-asset.msi.com/event/nb/2018/GE63/imgs/icon/music.png");
   }
-  
+
   .icon_3 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-14.svg");
   }
-  
+
   .icon_4 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-05.svg");
   }
-  
+
   .icon_5 .icon {
     background-image: url("https:///storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-11.svg");
   }
-  
+
   .icon_6 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-07.svg");
   }
-  
+
   .icon_7 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-10.svg");
   }
-  
+
   .icon_8 .icon {
     background-image: url("https://storage-asset.msi.com/event/nb/2018/GE63/imgs/icon/rest.png");
   }
-  
+
   .icon_k1 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-11.svg");
   }
-  
+
   .icon_k2 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-11.svg");
   }
-  
+
   .icon_k3 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-04.svg");
   }
-  
+
   .icon_k4 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-15.svg");
   }
-  
+
   .icon_k5 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-14.svg");
   }
-  
+
   .icon_k6 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-14.svg");
   }
-  
+
   .icon_k7 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-14.svg");
   }
-  
+
   .icon_k8 .icon {
     background-image: url("https://storage-asset.msi.com/global/picture/image/feature/mb/X299/X299-Carbon/mystic_light_rgb_icon-05.svg");
   }
-  
+
   /* section 5 - mystic light*/
-  
+
   .section.no_5 {
     background: #000;
   }
-  
+
   .section.no_5 .kbg {
     max-width: 1150px;
     width: 100%;
@@ -3305,7 +3379,7 @@
     position: relative;
     z-index: 1;
   }
-  
+
   .section.no_5 .kbg .nb_bg {
     position: absolute;
     top: 0;
@@ -3319,7 +3393,7 @@
     z-index: 100;
     opacity: 1;
   }
-  
+
   .section.no_5 .kbg .color_bg {
     position: absolute;
     top: 15%;
@@ -3331,7 +3405,7 @@
     overflow: hidden;
     background-color: #171717;
   }
-  
+
   .section.no_5 .kbg .color_bg div {
     position: absolute;
     width: 100%;
@@ -3341,7 +3415,7 @@
     right: 0;
     bottom: 0;
   }
-  
+
   .section.no_5 .kbg .color_bg div > div {
     position: absolute;
     left: 0;
@@ -3355,11 +3429,11 @@
     -o-transition: all 0.5s;
     transition: all 0.5s;
   }
-  
+
   .section.no_5 .kbg .color_bg div.active > div {
     opacity: 1;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_1 > div:after {
     content: "";
     -webkit-transform: rotate(35deg);
@@ -3380,7 +3454,7 @@
     animation: VerticalWaveUp 2s linear infinite;
     overflow: hidden;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_1 > div:before {
     content: "";
     -webkit-transform: rotate(-35deg);
@@ -3401,7 +3475,7 @@
     animation: VerticalWaveUp 2s linear infinite;
     overflow: hidden;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_2 > div {
     display: block;
     animation-name: StaticColorShift;
@@ -3410,7 +3484,7 @@
     animation-direction: alternate;
     transition-timing-function: ease-in;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_3 > div {
     display: block;
     animation-name: GameSenseColorShift;
@@ -3418,7 +3492,7 @@
     animation-iteration-count: infinite;
     transition-timing-function: ease-in;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_4 > div:after {
     content: "";
     -webkit-transform: rotate(215deg);
@@ -3440,7 +3514,7 @@
     overflow: hidden;
     box-shadow: inset 0px 0px 50px 20px #171717;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_4 > div:before {
     content: "";
     -webkit-transform: rotate(-215deg);
@@ -3462,7 +3536,7 @@
     overflow: hidden;
     box-shadow: inset 0px 0px 50px 20px #171717;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_5 > div:after {
     content: "";
     position: absolute;
@@ -3479,7 +3553,7 @@
     overflow: hidden;
     box-shadow: inset 0px 0px 80px 50px #171717;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_6 > div:after {
     content: "";
     -webkit-transform: rotate(35deg);
@@ -3500,7 +3574,7 @@
     animation: VerticalWaveUp 8s linear infinite;
     overflow: hidden;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_6 > div:before {
     content: "";
     -webkit-transform: rotate(-35deg);
@@ -3521,7 +3595,7 @@
     animation: VerticalWaveUp 8s linear infinite;
     overflow: hidden;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_7 > div:after {
     content: "";
     position: absolute;
@@ -3538,29 +3612,29 @@
     background-size: cover;
     box-shadow: inset 0px 0px 80px 50px #171717;
   }
-  
+
   .section.no_5 .kbg .color_bg div.colorbg_8 > div {
     background-color: #171717;
   }
-  
+
   .section.no_5 .kbg .m_nb_1 {
     max-width: 80%;
     display: block;
     margin: auto;
   }
-  
+
   .section.no_5 .btu_bar {
     margin-top: -80px;
     position: relative;
     z-index: 1000;
   }
-  
+
   .section.no_5 .mystic_light {
     width: 100%;
     max-width: 132px;
     margin-top: 5rem;
   }
-  
+
   @media only screen and (max-width: 575px) {
     .section.no_5 .kbg {
       padding-top: 5%;
@@ -3569,9 +3643,9 @@
       margin-top: 1rem;
     }
   }
-  
+
   /*section 6 - steelseries */
-  
+
   .section.no_6 {
     background-color: #000;
     padding-top: 5%;
@@ -3579,10 +3653,10 @@
     height: auto;
     /* overflow: hidden;*/
   }
-  
+
   .section.no_6 .kbmenu {
   }
-  
+
   .section.no_6 .kbmenu ul {
     width: 100%;
     display: block;
@@ -3595,23 +3669,23 @@
     justify-content: center;
     margin-bottom: 70px;
   }
-  
+
   .section.no_6 .kbmenu ul li {
     display: inline-block;
     margin-left: 0;
     flex: 0 0 110px;
   }
-  
+
   .section.no_6 .kbmenu ul li a {
     position: relative;
     display: block;
     text-decoration: none;
   }
-  
+
   .btu_bar .btu_icon a {
     text-decoration: none;
   }
-  
+
   .section.no_6 .kbmenu ul li a:before {
     content: "";
     display: block;
@@ -3625,16 +3699,16 @@
     opacity: 0.53;
     margin: auto;
   }
-  
+
   .section.no_6 .kbmenu ul li a:hover:before {
     opacity: 1;
   }
-  
+
   .section.no_6 .kbmenu ul li a:hover span {
     color: #fff;
     opacity: 1;
   }
-  
+
   .section.no_6 .kbmenu ul li a:focus:before {
     content: "";
     display: block;
@@ -3649,12 +3723,12 @@
     color: #fff;
     margin: auto;
   }
-  
+
   .section.no_6 .kbmenu ul li a:focus span {
     color: #fff;
     opacity: 1;
   }
-  
+
   .section.no_6 .kbmenu ul li a span {
     color: #fff;
     font-family: "DINPro-Regular", "cwTeXHei", "Microsoft JhengHei";
@@ -3668,11 +3742,11 @@
     display: block;
     margin-left: -3rem;
   }
-  
+
   .section.no_6 .kbframe_GE_bg {
     width: 100%;
   }
-  
+
   .section.no_6 .kbframe_GE_bg div {
     position: absolute;
     top: 0;
@@ -3684,13 +3758,13 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
+
   .section.no_6 .GE_HorizontalWave {
     display: block;
     width: 99%;
     min-height: 500px;
   }
-  
+
   .section.no_6 #GEKeyboard {
     height: 480px;
     width: 100%;
@@ -3702,11 +3776,10 @@
     -o-transform: scale(0.9, 0.9);
     transform: scale(0.9, 0.9);
   }
-  
+
   @media only screen and (max-width: 575px) {
     .section.no_6 {
       min-height: 655px;
       background-size: 100%;
     }
   }
-  

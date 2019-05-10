@@ -4,10 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { GameViewComponent } from './game-view/game-view.component';
 import { GameCartComponent } from './game-cart/game-cart.component';
 import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
   {
     path: '',
+    component: HomeComponent
+  },
+  {
+    path: 'home',
     component: HomeComponent
   },
   {
@@ -22,6 +27,11 @@ const routes: Routes = [
     path: 'register',
     component: RegisterComponent
   }
+  //,
+  // {
+  //   path : 'login',
+  //   component: LoginComponent
+  // }
 ];
 
 @NgModule({

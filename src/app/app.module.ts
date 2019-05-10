@@ -5,14 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
-import { FooterComponent } from './shared/footer/footer.component'; 
+import { FooterComponent } from './shared/footer/footer.component';
 import { BannerCardComponent } from './home/banner-card/banner-card.component';
 import { NewsAreaComponent } from './home/news-area/news-area.component';
 import { GameViewComponent } from './game-view/game-view.component';
 import { ContentCardsComponent } from './home/content-cards/content-cards.component';
 import { GameCartComponent } from './game-cart/game-cart.component';
 import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { GameHomeService } from './services/gamedetails.service';
+import { LoginService } from './services/login.service';
+import { ShoppingCart } from './services/shoppingcart.service';
+import { CurrentUserService } from './services/currentUser.service';
 
+import { CookieService } from 'ngx-cookie-service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,13 +32,17 @@ import { RegisterComponent } from './register/register.component';
     GameViewComponent,
     ContentCardsComponent,
     GameCartComponent,
-    RegisterComponent
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [GameHomeService , LoginService, ShoppingCart , CurrentUserService , CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
