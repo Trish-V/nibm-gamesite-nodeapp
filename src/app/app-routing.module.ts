@@ -5,6 +5,7 @@ import { GameViewComponent } from './game-view/game-view.component';
 import { GameCartComponent } from './game-cart/game-cart.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { FreeToPlayComponent } from './free-to-play/free-to-play.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'register',
     component: RegisterComponent
+  },
+  {
+    path: 'freeToPlay',
+    component: FreeToPlayComponent
   }
   //,
   // {
