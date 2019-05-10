@@ -21,6 +21,8 @@ import { ShoppingCart } from './services/shoppingcart.service';
 import { CurrentUserService } from './services/currentUser.service';
 
 import { CookieService } from 'ngx-cookie-service';
+import { FreeToPlayComponent } from './free-to-play/free-to-play.component';
+import { GamesComponent } from './free-to-play/games/games.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,9 @@ import { CookieService } from 'ngx-cookie-service';
     ContentCardsComponent,
     GameCartComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    FreeToPlayComponent,
+    GamesComponent
   ],
   imports: [
     BrowserModule,
