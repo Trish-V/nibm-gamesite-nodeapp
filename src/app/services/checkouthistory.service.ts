@@ -8,14 +8,14 @@ import { Observable } from 'rxjs';
 })
 export class CheckOutHistoryService{
 
-  // private resourceUrl = 'http://192.168.1.4:3000/api/checkout-hostory';
+  private resourceUrl = '/api/checkout-history';
 
-  // constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) { }
 
 
-  // create(data : Object):Observable<Object>{
-  //   return this.http.post<Object>(this.resourceUrl , data , { observe : 'response' });
-  // }
+  createlogItem(data : Object):Observable<Object>{
+    return this.http.post<Object>(this.resourceUrl , data , { observe : 'response' });
+  }
 
 
 

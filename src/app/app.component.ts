@@ -14,9 +14,9 @@ export class AppComponent implements OnInit {
 
   constructor(
     private currentUser: CurrentUserService,
-     private router: Router,
-     private cookieService: CookieService
-     ) { }
+    private router: Router,
+    private cookieService: CookieService
+  ) { }
 
   ngOnInit(): void {
 
@@ -28,6 +28,11 @@ export class AppComponent implements OnInit {
       console.log("User info : " + JSON.stringify(res))
 
 
+      let allCookies: {} = this.cookieService.getAll();
+      console.log(allCookies)
+      // if (allCookies.length < 15) {
+
+      // }
       // this.router.navigate(['/login']);
     }, err => {
       if (err.status == 500) {
@@ -35,9 +40,8 @@ export class AppComponent implements OnInit {
       }
       // console.log("error : ˚˚˚˚˚˚   " + JSON.stringify(err))
     })
-    let allCookies = this.cookieService.getAll();
 
-    
+
     console.log(JSON.stringify(this.get_cookies_array()))
 
   }
