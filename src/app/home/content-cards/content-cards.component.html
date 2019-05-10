@@ -1,127 +1,143 @@
-<div class="wrapper">
-  <div class="container-fluid">
-    <div class="row container-fluid">
+<div class="wrapper" >
+  <div class="container-fluid" >
+    <div class="row container-fluid" >
 
-        <div class="col-4 small">
-            <div class="shadow small-card">
-              <div class="inner  ">
-                <div class="cover"></div>
-                <div class="label">
-                  <h3> Watch Dogs 2 </h3>
-                </div>
-    
-              </div>
-    
-            </div>
-    
+
+
+      <div class="col-4 small" *ngFor="let game of gameDetailsList">
+        <div class="shadow small-card">
+          <div class="inner">
+
+          <img  class="cover  " [src]="game.image_urls[0].url">
+
+          <div class="label">
+             <h3>{{game.title}}</h3>
+             <button class="btn btn-primary btn-round" type="button"  (click)="addToWishList(game)">
+                <i class="tim-icons icon-heart-2"></i> Add To Wish List
+              </button>
           </div>
-          <div class="col-4 small">
-            <div class="shadow small-card">
-              <div class="inner  ">
-                <div class="cover"></div>
-                <div class="label">
-                  <h3> Watch Dogs 2 </h3>
-                </div>
-    
-              </div>
-    
-            </div>
-    
-          </div>
-          <div class="col-4 small">
-            <div class="shadow small-card">
-              <div class="inner  ">
-                <div class="cover"></div>
-                <div class="label">
-                  <h3> Watch Dogs 2 </h3>
-                </div>
-    
-              </div>
-    
-            </div>
-    
-          </div>
-    
-          <div class="col-4 small">
-              <div class="shadow small-card">
-                <div class="inner  ">
-                  <div class="cover"></div>
-                  <div class="label">
-                    <h3> Watch Dogs 2 </h3>
-                  </div>
-      
-                </div>
-      
-              </div>
-      
-            </div>
-            <div class="col-4 small">
-              <div class="shadow small-card">
-                <div class="inner  ">
-                  <div class="cover"></div>
-                  <div class="label">
-                    <h3> Watch Dogs 2 </h3>
-                  </div>
-      
-                </div>
-      
-              </div>
-      
-            </div>
-            <div class="col-4 small">
-              <div class="shadow small-card">
-                <div class="inner  ">
-                  <div class="cover"></div>
-                  <div class="label">
-                    <h3> Watch Dogs 2 </h3>
-                  </div>
-      
-                </div>
-      
-              </div>
-      
-            </div>
-      
-            <div class="col-4 small">
-                <div class="shadow small-card">
-                  <div class="inner  ">
-                    <div class="cover"></div>
-                    <div class="label">
-                      <h3> Watch Dogs 2 </h3>
-                    </div>
-        
-                  </div>
-        
-                </div>
-        
-              </div>
-              <div class="col-4 small">
-                <div class="shadow small-card">
-                  <div class="inner  ">
-                    <div class="cover"></div>
-                    <div class="label">
-                      <h3> Watch Dogs 2 </h3>
-                    </div>
-        
-                  </div>
-        
-                </div>
-        
-              </div>
-              <div class="col-4 small">
-                <div class="shadow small-card">
-                  <div class="inner  ">
-                    <div class="cover"></div>
-                    <div class="label">
-                      <h3> Watch Dogs 2 </h3>
-                    </div>
-        
-                  </div>
-        
-                </div>
-        
-              </div>                  
+
+        </div>
+
+      </div>
+
     </div>
+
+
+
+
+
+
+
+    <!-- <div class="col-4 small">
+      <div class="shadow small-card">
+        <div class="inner  ">
+          <img  class="cover  " [src]="gameDetailsList[3].image_urls[0].url">
+
+          <div class="label">
+            <h3> PUBG</h3>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div> -->
+    <!-- <div class="col-4 small">
+            <div class="shadow small-card">
+              <div class="inner  ">
+                <div class="cover banner7"></div>
+                <div class="label">
+                  <h3> Age of Empires 4 </h3>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-4 small">
+              <div class="shadow small-card">
+                <div class="inner  ">
+                  <div class="cover banner8"></div>
+                  <div class="label">
+                    <h3> Call of the duty 2</h3>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-4 small">
+              <div class="shadow small-card">
+                <div class="inner  ">
+                  <div class="cover banner9"></div>
+                  <div class="label">
+                    <h3> Far cry 4</h3>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-4 small">
+              <div class="shadow small-card">
+                <div class="inner  ">
+                  <div class="cover banner10"></div>
+                  <div class="label">
+                    <h3> Watch Dogs 2 </h3>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-4 small">
+                <div class="shadow small-card">
+                  <div class="inner  ">
+                    <div class="cover banner1"></div>
+                    <div class="label">
+                      <h3> COD Black OPS</h3>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col-4 small">
+                <div class="shadow small-card">
+                  <div class="inner  ">
+                    <div class="cover banner2"></div>
+                    <div class="label">
+                      <h3> Far Cry 5</h3>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col-4 small">
+                <div class="shadow small-card">
+                  <div class="inner  ">
+                    <div class="cover banner4"></div>
+                    <div class="label">
+                      <h3>World war 3</h3>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div> -->
   </div>
 </div>
 
+
+<button (click)="getAllGames()">Click me</button>
