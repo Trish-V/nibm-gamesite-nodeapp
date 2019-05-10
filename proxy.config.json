@@ -1,30 +1,42 @@
-
-  {
-    "/api/shopping-cart": {
-      "target": "http://localhost:3000",
-      "secure": false,
-      "loglevel": "debug"
-    },
-    "/api/game-home-page": {
-      "target": "http://localhost:3000",
-      "secure": false,
-      "loglevel": "debug"
-    }, 
-     "/user": {
-      "target": "http://localhost:3000",
-      "secure": false,
-      "loglevel": "debug"
-    },
-    
-    "/login": {
-      "target": "http://localhost:3000/login",
-      "secure": false,
-      "loglevel": "debug"
-    } ,
-    "/logout": {
-      "target": "http://localhost:3000/",
-      "secure": false,
-      "loglevel": "debug"
-    }
+{
+  "/api/shopping-cart": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "loglevel": "debug"
+  },
+  "/api/game-home-page": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "loglevel": "debug"
+  },
+  "/api/shopping-cart/getall/**": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "loglevel": "debug"
+  },
+  "/api/shopping-cart/**": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "loglevel": "debug"
+  },
+  "/api/checkout-history": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "loglevel": "debug"
+  },
+  "/user": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "loglevel": "debug"
+  },
+  "/login": {
+    "target": "http://localhost:3000/login",
+    "secure": false,
+    "loglevel": "debug"
+  },
+  "/logout": {
+    "target": "http://localhost:3000/",
+    "secure": false,
+    "loglevel": "debug"
   }
-
+}

@@ -11,14 +11,16 @@ import { Observable } from 'rxjs';
 })
 export class ShoppingCart {
 
-  private resourceUrl = '/api/shopping-cart';
+  private createUrl = '/api/shopping-cart';
+  private resourceUrl = '/api/shopping-cart/getall';
+  private deleteUrl = '/api/shopping-cart';
 
   constructor(private http: HttpClient) { }
 
 
   create(data) {
     try {
-      return this.http.post<any>(this.resourceUrl, data
+      return this.http.post<any>(this.createUrl, data
 
       );
     } catch (error) {
@@ -29,9 +31,14 @@ export class ShoppingCart {
 
 
 
-  // find(id: string): Observable<Object> {
-  //   return this.http.get<Object>(`${this.resourceUrl}/${id}`, { observe: 'response' });
-  // }
+  find(userName : string): Observable<HttpResponse<any>> {
+    return this.http.get<HttpResponse<any>>(`${this.resourceUrl}/${userName}`, { observe: 'response' });
+  }
+
+
+  delete(deleteItem : string): Observable<HttpResponse<any>> {
+    return this.http.delete<HttpResponse<any>>(`${this.deleteUrl}/${deleteItem}`, { observe: 'response' });
+  }
 
 
 
